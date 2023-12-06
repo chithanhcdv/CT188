@@ -1,0 +1,191 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.user-form{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: auto;
+    box-shadow: 0px 0px 10px #333;
+}
+
+.user-form-text{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.user-form-link{
+    text-align: center;
+}
+
+.form-group{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.form-check{
+    padding-left: 45px;
+}
+
+.forgot-password{
+    float: right;
+    padding-right: 20px;
+}
+
+.login-button-container, .register-button-container{
+    text-align: center;
+}
+
+.login-button, .register-button{
+    background-color: black;
+}
+
+.login-button:hover, .register-button:hover{
+    background-color: white; 
+    color: black;
+}
+
+.form-group{
+    position: relative;
+}
+
+.show-password{
+    position: absolute;
+    right: 30px;
+    top: 40%;
+    transform: translateY(-50%);
+}
+
+#wp-content {
+    display: inline-block;
+    width: 90%;
+    max-width: 1020px;
+    min-width: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 9px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 10px;
+}
+
+#header-child button a {
+    color: orangered;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#p-giohang {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: orangered;
+    font-size: 1.25rem;
+}
+
+#header-child {
+    display: flex;
+    align-items: center;
+}
+
+#dathang {
+  
+    background-color:white;
+    bottom: 0;
+    margin-top: 30px;
+    
+    width: 1000px;
+    padding: 12px;
+    border-radius: 16px;
+    box-shadow: 0 0 9px 1px rgb(25, 25, 25,.25);
+}
+
+#text {
+    font-weight: bolder;
+}
+
+#card {
+    display: block;
+    width: 90%;
+    max-width: 1020px;
+    min-width: 100px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+}
+
+.delete {
+    position: relative;
+    width: 30px;
+    left: 95%;
+}
+
+.delete button {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid silver;
+}
+
+.forminfo {
+    width: 760px;
+    margin: 20px auto auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 9px 1px silver;
+}
+
+.p-head {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+.input-child {
+    display: flex;
+    padding: 5px 20px 5px;
+    max-width: 240px;
+    width: 35%;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    border-color: silver;
+}
+
+.select-1 {
+    display: block;
+    width: auto;
+    background-color: white;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    border-color: silver;
+    padding: 5px 10px 5px;
+}
+
+.select-2 {
+    display: flexbox;
+    width: auto;
+    background-color: white;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    border-color: silver;
+    padding: 5px 10px 5px;
+}
+
+input.select-2 {
+    padding: 5px 15px 5px;
+}
+
+#sum-money {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: 700;
+    color: red;
+}
